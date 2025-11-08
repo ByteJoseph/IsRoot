@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Is Root</string>
+    <string name="pending">Checking root status...</string>
+</resources>
