@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:indeterminate="true"
+        android:visibility="gone"
         android:layout_marginBottom="16dp"/>
 
     <TextView
@@ -24,6 +25,13 @@
         android:gravity="center"
         android:text="@string/pending"
         android:fontFamily="sans-serif-medium"
+        android:visibility="gone"
         />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Checkup" />
 
 </LinearLayout>
